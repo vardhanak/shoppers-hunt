@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Shoppers Hunt</title>
+</head>
+<body id="bi" background="./images/backgroundimage.jpg" >
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>Shoppers Hunt</h1>
+                </div>
+                <div class="cart__counter">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span id="total__counter">0</span>
+                </div>
+            </nav>
+            <input type="text" name="" id="myinput" placeholder="search" onkeyup="searchfun()">
+            <button type="submit"><i class="fa fa-search" id="s1"></i></button>
+            <div class="cart">
+                <div class="cart__items ">
+
+                    <div class="check_out"><h4>Total Amount : Rs</h4>
+                        <h4 class="total__cost">10000</h4>
+                        <button class="btn check__out__btn">Order it</button>
+                        </div>
+                   
+                </div>
+            </div>
+        </header>
+        <div class="products" >
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="1">
+                <img src="./images/1.jpg" alt="" id="image"><br>
+                <h4 class="product__name">Nike Sneakers</h4>
+                <h5 class="product__price">Rs 3999</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="2">
+                <img src="./images/2.jpg" alt="" id="image"><br>
+                <h4 class="product__name">US Polo Chollar Tshirt</h4>
+                <h5 class="product__price">Rs 1499</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="3">
+                <img src="./images/3.jpg" alt="" id="image"><br>
+                <h4 class="product__name">US Polo SweatShirt</h4>
+                <h5 class="product__price">Rs 1999</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="4">
+                <img src="./images/4.jpg" alt="" id="image"><br>
+                <h4 class="product__name">US Polo Casual Shirt</h4>
+                <h5 class="product__price">Rs 1499</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="4">
+                <img src="./images/5.jpg" alt="" id="image"><br>
+                <h4 class="product__name">US Polo Tshirt</h4>
+                <h5 class="product__price">Rs 999</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="4">
+                <img src="./images/6.jpg" alt="" id="image"><br>
+                <h4 class="product__name">Nike Sneakers</h4>
+                <h5 class="product__price">Rs 2999</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="4">
+                <img src="./images/7.jpg" alt="" id="image"><br>
+                <h4 class="product__name">US Polo Formal Shirt </h4>
+                <h5 class="product__price">Rs 1799</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="4">
+                <img src="./images/8.jpg" alt="" id="image"><br>
+                <h4 class="product__name">Spykar Jeans</h4>
+                <h5 class="product__price">Rs 1799</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" name="" id="product_id" value="4">
+                <img src="./images/9.jpg" alt="" id="image"><br>
+                <h4 class="product__name">US Polo Tshirt</h4>
+                <h5 class="product__price">Rs 999</h5>
+                <div class="btn__add__to__cart">Add To Cart</div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
